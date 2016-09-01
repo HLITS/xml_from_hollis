@@ -16,7 +16,7 @@ xml_urls = []
 for datum in data[1:]: # assumes that data starts with the second line ([1:])
     xml_urls += [datum[hollis_number]]
 
-format = "mods" # to do: create prompt
+format = "mods" # to do: create prompt; values should include "mods", "marc"
 xml_content = ""
 
 for url in xml_urls:
